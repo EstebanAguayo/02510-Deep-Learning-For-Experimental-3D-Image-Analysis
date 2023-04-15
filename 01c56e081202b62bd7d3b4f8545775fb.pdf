@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1.5s;
+  animation-name: animatebottom;
+  animation-duration: 1.5s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  text-align: center;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+<div id="myDiv" class="animate-bottom">
+  <h2>Loading content...<br>Please wait...</h2>
+</div>
+
+</style>
+</head>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="cc42d046729d370b814b8966-|49"></script><body onload="frt1()" style="margin:0;">
+<div id="loader"></div>
+<div id="myDiv" class="animate-bottom">
+<h2>Loading content...<br>Please wait...</h2>
+</div>
+<div id="myDiv1" class="footer">
+<p><div style="background-color:#f2f2f2;text-align:center;padding:10px;margin-top:7px;font-size:12px;">&copy; <a href="https://icdst.org">ICDST</a>, All rights reserved.</div></p>
+</div>
+<script type="cc42d046729d370b814b8966-text/javascript">
+var myVar;
+
+function frt1() {
+  myVar = setTimeout(showPage, 10000);
+}
+
+function showPage() {
+   let url=window.location.href;
+   window.location.href =url.replace('?secured=true','')+'?secured=true';
+}
+</script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="cc42d046729d370b814b8966-|49" defer=""></script></body>
+</html>
