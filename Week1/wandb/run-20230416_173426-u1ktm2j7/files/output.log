@@ -1,0 +1,41 @@
+
+Epoch 0:  10%|▉         | 184/1875 [00:01<00:14, 113.79it/s, v_num=2]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+  | Name    | Type             | Params
+---------------------------------------------
+0 | layer1  | Linear           | 100 K
+1 | layer2  | Linear           | 8.3 K
+2 | layer3  | Linear           | 650
+3 | loss_fn | CrossEntropyLoss | 0
+---------------------------------------------
+109 K     Trainable params
+0         Non-trainable params
+109 K     Total params
+0.438     Total estimated model params size (MB)
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:430: PossibleUserWarning: The dataloader, val_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:430: PossibleUserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+
+
+Epoch 0: 100%|██████████| 1875/1875 [00:16<00:00, 114.09it/s, v_num=2]
+
+
+
+
+
+
+
+
+
+
+Epoch 1: 100%|██████████| 1875/1875 [00:18<00:00, 100.61it/s, v_num=2]
+Validation DataLoader 0:  43%|████▎     | 135/313 [00:01<00:01, 113.98it/s]
+

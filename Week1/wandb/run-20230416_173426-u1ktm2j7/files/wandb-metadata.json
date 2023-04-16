@@ -1,0 +1,41 @@
+{
+    "os": "macOS-12.6-x86_64-i386-64bit",
+    "python": "3.11.0",
+    "heartbeatAt": "2023-04-16T15:34:33.598132",
+    "startedAt": "2023-04-16T15:34:26.078300",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": null,
+        "commit": "4f80d265ee06de24629269a9bf18bf8d6ce13cae"
+    },
+    "email": "s213162@dtu.dk",
+    "root": "/Users/esteban/Desktop/DTU/Semester4/02510-Deep-Learning-for-experimental-3D-IMAG/GitHub",
+    "host": "192-168-0-17.static.private.lan",
+    "username": "esteban",
+    "executable": "/usr/local/bin/python3",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2200,
+        "min": 2200,
+        "max": 2200
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200,
+            "min": 2200,
+            "max": 2200
+        }
+    ],
+    "disk": {
+        "total": 233.46913528442383,
+        "used": 20.397693634033203
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
